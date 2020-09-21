@@ -6,6 +6,6 @@ class Transfer
     @new_account = new_account
     @account = account
     @balance = balance
-    @aacount = sender 
+    @aacount = @sender 
   end
 end
