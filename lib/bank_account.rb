@@ -12,4 +12,8 @@ def deposit(amount)
   @balance += amount
 end 
 
+def display_blance
+  @balance
+end
+
 end
