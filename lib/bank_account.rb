@@ -26,7 +26,7 @@ end
   
   def close_account
     if self.valid?
-      self.status == "closed"
+      self.status = "closed"
     end
   end 
 
