@@ -27,6 +27,8 @@ end
   def close_account
     if valid?
       self.status == "closed"
+    else
+      return nil 
     end
   end 
 
