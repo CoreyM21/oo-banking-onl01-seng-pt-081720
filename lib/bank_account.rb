@@ -22,6 +22,8 @@ def valid?
   else
     return false 
   end
+  
+  def close_account
 end
 
 end
